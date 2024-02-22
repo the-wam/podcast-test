@@ -7,7 +7,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
       - name: Setup Python
-        uses: actions/seup-python@v4
+        uses: actions/setup-python@v4
         with:
           python-verison: '3.10'
       - name: Install Dependencies
